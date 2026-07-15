@@ -152,7 +152,7 @@ export async function exportStockPdf(
       7: { cellWidth: 18, halign: "center" },
     },
     margin: { left: 8, right: 8, top: 24, bottom: 24 },
-    showHead: "everyPage",
+    showHead: "everyPage", // บังคับแสดงหัวตารางทุกหน้า
     didParseCell: (data) => {
       if (data.row.section === "body" && data.column.index === 6 && data.cell.raw === "") {
         data.cell.text = [];
