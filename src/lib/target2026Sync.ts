@@ -1,5 +1,5 @@
 const TARGET2026_URL =
-  "https://script.google.com/macros/s/AKfycbzjjyeXd5uR5ScG5DYXVF-VGbbMrAqUkAj2jAzTUk6_CrGx5FvVngtluUWY8O_XHHHELg/exec";
+  "https://script.google.com/macros/s/AKfycbzhZR5ncKS_PeylC4xVcBiTqYCuQqxYOU5rcYkA6xuWx4FEsvQNKqOEuyu0xcwvYczB9w/exec";
 
 export interface Target2026Table {
   headers: string[];
